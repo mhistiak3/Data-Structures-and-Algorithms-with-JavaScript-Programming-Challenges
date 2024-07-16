@@ -4,12 +4,12 @@ const reverseString = (str) => {
     if (!str) {
         return ""
     }
-  let reversStr = "";
+  let reverseStr = "";
   for (let i = str.length - 1; i >= 0; i--) {
-   reversStr += str[i];
+   reverseStr += str[i];
    
   }
-  return reversStr.toLowerCase()
+  return reverseStr.toLowerCase();
 };
 
 console.log(reverseString());
