@@ -14,7 +14,6 @@ const fizzBuzzArray = (num) => {
       arr.push(number);
     }
   }
-
   return arr;
 };
 console.log(fizzBuzzArray(15));
